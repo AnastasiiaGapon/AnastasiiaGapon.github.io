@@ -1,48 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Anastasiia Gapon Portfolio Homepage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Viewport meta tag for responsive design -->
+<!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> <!--html5 shiv from Google's CDN; allows older browsers (IE) to support modern HTML5 elements-->
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Anastasiiagapon.GitHub.io : ">
+</head>
+<body>
+	<!-- Header -->
+	<header class="header">
+		<nav class="main-menu inner">
+		<img class="main-menu__icon" src="Images/menu.svg" alt="Menu hamburger icon">
+			<ul class="main-menu__list inner">
+				<a href="#home"><li class="main-menu__list__item">home</li></a>
+				<a href="#about"><li class="main-menu__list__item">about</li></a>
+				<a href="#contact"><li class="main-menu__list__item">contact me</li></a>
+			</ul>
+		</nav><!--end of header__banner-->
+	</header>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Anastasiiagapon.GitHub.io</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/AnastasiiaGapon">View on GitHub</a>
-
-          <h1 id="project_title">Anastasiiagapon.GitHub.io</h1>
-          <h2 id="project_tagline"></h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="sorry-this-page-is-under-reconstruction" class="anchor" href="#sorry-this-page-is-under-reconstruction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sorry, this page is under reconstruction!</h1>
-
-<h2>
-<a id="please-come-back-later" class="anchor" href="#please-come-back-later" aria-hidden="true"><span class="octicon octicon-link"></span></a>Please, come back later!</h2>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+	<!-- Main Content -->
+	<section class="main-content clear">
+		<!-- Home Page -->
+		<div id="home" class="block center-aligned centered inner">
+			<div class="middled">
+				<img class="home__logo-img" src="Images/logo.svg" alt="Logo image">
+				<p class="home__heading">anastasiia gapon</p>
+				<p class="home__heading">web designer &amp; developer</p>
+				</div><!--end .middled-->
+		</div><!--end of row-->
+		
+		<!-- About Page -->
+		 <div id="about" class="page-bg">
+		 	<section class="page-content centered inner">
+				<p class="top-space">I’m a self-taught graphic/web designer very excited about the new features of HTML5, such as the new semantic tags, and the power of using elegant CSS decisions instead of heavy loaded JS on a page.</p>
+			
+				<p>I study JS and PHP in the background.</p>
+				
+				<p>I understand the significance of well-organized HTML and CSS performance for producing efficient output. The mandatory using preprocessors and naming conventions in my workflow reduces the specificity level and makes the final code understandable and reusable not only for myself. And I’ve never used <em>!important</em> yet.  
+				</p>
+				<h4>Skills/Tools/Software</h4>
+				<h4>Strong knowledge:</h4>
+				<ul class="page-content__list">
+					<li>HTML5, CSS (LESS and Sass; OOCSS, SMACSS, BEM, ITCSS)</li>
+					<li>MS Office, Photoshop, Illustrator, Sketch</li>
+					<li>SublimeText 3</li>
+					<li>Browser compatibility</li>
+				</ul>
+				<h4>Basic knowledge:</h4>
+				<ul class="page-content__list">
+					<li>WordPress</li>
+					<li>JavaScript</li>
+					<li>PHP</li>
+					<li>Git, Github</li>
+					<li>SEO Analytics tools</li>
+				</ul>
+			</section>
+		</div><!--end .page-bg-->
+		
+		<!-- Contact me Page -->
+		<div id="contact" class="centered inner">
+			<h3 class="center-aligned">Contact me</h3>
+			<ul class="social-list">
+				<a href="https://www.facebook.com/anastasiia.gapon">
+					<i class="fa fa-facebook-official"></i>
+					<li class="social-list__item">facebook</li>
+				</a>
+				<a href="https://twitter.com/AnastasiiaG">
+					<i class="fa fa-twitter-square"></i>
+					<li class="social-list__item">twitter</li>
+				</a>
+				<a href="https://github.com/AnastasiiaGapon">
+					<i class="fa fa-github-square"></i>
+					<li class="social-list__item">github</li>
+				</a>
+				<a href="mailto:nastya.gapon@yahoo.com">
+					<i class="fa fa-paper-plane"></i>
+					<li class="social-list__item no-right-margin">nastya.gapon@yahoo.com</li>
+				</a>
+			</ul>
+		</div><!--end .centered-->
+	</section>
+	<!-- Footer -->
+	<footer class="footer centered">			
+		<section class="copyrights top-space">
+			<p class="footer__copyrights">Theme by Anastasiia Gapon 2016</p>
+			<p class="footer__copyrights right-float">Published with <a href="https://pages.github.com/">GithubPages</a></p>
+		</section>
+		
+	</footer>
+	<script src="JS/jquery.js"></script>
+	<script src="JS/pop-up-menu.js"></script>
+</body>
 </html>
