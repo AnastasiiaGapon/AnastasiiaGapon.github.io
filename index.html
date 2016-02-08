@@ -23,95 +23,229 @@
   </head>
 
   <body>
+	<!-- Header -->
+	<header class="header">
+		<nav class="main-menu inner">
+		<img class="main-menu__icon" src="Images/menu.svg" alt="Menu hamburger icon">
+			<ul class="main-menu__list inner">
+				<a href="#home"><li class="main-menu__list__item">home</li></a>
+				<a href="#cases"><li class="main-menu__list__item">cases</li></a>
+				<a href="#about"><li class="main-menu__list__item">about</li></a>
+				<a href="#contact"><li class="main-menu__list__item">contact me</li></a>
+			</ul>
+		</nav><!--end of header__banner-->
+	</header>
 
-    <!-- HEADER -->
-    <header class="header">
-    <nav class="main-menu inner">
-    <img class="main-menu__icon" src="images/menu.svg" alt="Menu hamburger icon">
-      <ul class="main-menu__list inner">
-        <a href="#home"><li class="main-menu__list__item">home</li></a>
-        <a href="#works"><li class="main-menu__list__item">works</li></a>
-        <a href="#about"><li class="main-menu__list__item">about</li></a>
-        <a href="#contact"><li class="main-menu__list__item">contact me</li></a>
-      </ul>
-    </nav><!--end of header__banner-->
-  </header>
+	<!-- Main Content -->
+	<section class="main-content clear">
+		<!-- Home Page -->
+		<div id="home" class="block center-aligned centered inner">
+			<div class="middled">
+				<img class="home__logo-img" src="Images/logo.svg" alt="Logo image">
+				<p class="home__heading">anastasiia gapon</p>
+				<p class="home__heading">web designer &amp; developer</p>
+				</div><!--end .middled-->
+		</div><!--end of row-->
 
-    <!-- MAIN CONTENT -->
-    <section class="main-content clear">
-    <!-- Home Page -->
-    <div id="home" class="block center-aligned centered inner">
-      <div class="middled">
-        <img class="home__logo-img" src="images/Logo.svg" alt="Logo image">
-        <p class="home__heading">anastasiia gapon</p>
-        <p class="home__heading">web designer &amp; developer</p>
-        </div><!--end .middled-->
-    </div><!--end of row-->
-    
-    <!-- About Page -->
-     <div id="about" class="page-bg">
-      <section class="page-content centered inner">
-        <p class="top-space">I’m a self-taught graphic/web designer very excited about the new features of HTML5, such as the new semantic tags, and the power of using elegant CSS decisions instead of heavy loaded JS on a page.</p>
-      
-        <p>I study JS and PHP in the background.</p>
-        
-        <p>I understand the significance of well-organized HTML and CSS performance for producing efficient output. The mandatory using preprocessors and naming conventions in my workflow reduces the specificity level and makes the final code understandable and reusable not only for myself. And I’ve never used <em>!important</em> yet.  
-        </p>
-        <h4>Skills/Tools/Software</h4>
-        <h4>Strong knowledge:</h4>
-        <ul class="page-content__list">
-          <li>HTML5, CSS (LESS and Sass; OOCSS, SMACSS, BEM, ITCSS)</li>
-          <li>MS Office, Photoshop, Illustrator, Sketch</li>
-          <li>SublimeText 3</li>
-          <li>Browser compatibility</li>
-        </ul>
-        <h4>Basic knowledge:</h4>
-        <ul class="page-content__list">
-          <li>WordPress</li>
-          <li>JavaScript</li>
-          <li>PHP</li>
-          <li>Git, Github</li>
-          <li>SEO Analytics tools</li>
-        </ul>
-      </section>
-    </div><!--end .page-bg-->
-    
-    <!-- Contact me Page -->
-    <div id="contact" class="centered inner">
-      <h3 class="center-aligned">Contact me</h3>
-      <ul class="social-list">
-        <a href="https://www.facebook.com/anastasiia.gapon">
-          <i class="fa fa-facebook-official"></i>
-          <li class="social-list__item">facebook</li>
-        </a>
-        <a href="https://twitter.com/AnastasiiaG">
-          <i class="fa fa-twitter-square"></i>
-          <li class="social-list__item">twitter</li>
-        </a>
-        <a href="https://github.com/AnastasiiaGapon">
-          <i class="fa fa-github-square"></i>
-          <li class="social-list__item">github</li>
-        </a>
-        <a href="mailto:nastya.gapon@yahoo.com">
-          <i class="fa fa-paper-plane"></i>
-          <li class="social-list__item no-right-margin">nastya.gapon@yahoo.com</li>
-        </a>
-      </ul>
-    </div><!--end .centered-->
-  </section>
-
-    <!-- FOOTER  -->
-    <footer class="footer centered">      
-    <section class="copyrights top-space">
-      <p class="footer__copyrights">Theme by Anastasiia Gapon 2016</p>
-      <p class="footer__copyrights right-float">Published with <a href="https://pages.github.com/">GithubPages</a></p>
-    </section>
-    
-  </footer>
-  <script src="javascripts/jquery.js"></script>
-  <script src="javascripts/pop-up-menu.js"></script>
-
-    
-
-  </body>
+		<!-- Works Page -->
+		<div id="cases" class="" >
+			<section class="page-content centered inner">
+				<h3 class="color-secondary">Cases</h3>
+					<section class="gallery">
+						<section class="project-item">
+							<a href=""><img src="Images/img1.png" width="300" height="305" alt="ICA project thumbnail"></a>
+							<div class="hover-box">
+								<span class="title">ICA Recommendation Starter<br><a class="alt-link" href="#img1">view more &#8594;</a></span>
+							</div><!--end .hover-box-->
+						</section><!--end .project-item-->
+						<section class="project-item">
+							<a href="#img2"><img src="Images/img2.png" height="305" alt="Email letter project thumbnail"></a>
+							<div class="hover-box">
+								<span class="title">HTML Email Letter<br><a class="alt-link" href="#img2">view more &#8594;</a></span>
+							</div><!--end .hover-box-->
+						</section><!--end .project-item-->
+						<section class="project-item">
+							<a href="#img3"><img src="Images/img3.png" height="305" alt="Ecommerce wine shop project thumbnail"></a>
+							<div class="hover-box">
+								<span class="title">Wine Shop Products Block<br><a class="alt-link" href="#img3">view more &#8594;</a></span>
+							</div><!--end .hover-box-->
+						</section><!--end .project-item-->
+						<section class="project-item">
+							<a href="#img4"><img src="Images/img4.png" height="305" alt="Magio Pro Beauty School project thumbnail"></a>
+							<div class="hover-box">
+								<span class="title">Magio Pro Beauty School<br>Part 1<br><a class="alt-link" href="#img4">view more &#8594;</a></span>
+							</div><!--end .hover-box-->
+						</section><!--end .project-item-->
+						<section class="project-item">
+							<a href="#img5"><img src="Images/img5.png" height="305" alt="Magio Pro Beauty School project thumbnail"></a>
+							<div class="hover-box">
+								<span class="title">Magio Pro Beauty School<br>Part 2<br><a class="alt-link" href="#img5">view more &#8594;</a></span>
+							</div><!--end .hover-box-->
+						</section><!--end .project-item-->
+					</section><!--end .gallery-->
+					<div class="lightbox" id="img1">
+						<div class="box inner">
+							<a href="#cases" class="close">&times;</a>
+							<div class="content">
+								<img src="Images/img1.png" class="content-image" alt="ICA project thumbnail">
+								<section class="project-description">
+									<h4>ICA Recommendation Starter</h4>
+									<p class="redused-font-size">My role in this project was to create a design for company's internal web sales application, where users should be able to receive recommendations on services they wanted to acquire.</p>
+									<p class="redused-font-size">I used Adobe Photoshop to accomplish the assignment. Several iterations were required to deliver the final version. I experimented with multiple colours and styles solutions until the customer was happy.</p>
+								</section><!--end .project-description-->
+							</div><!--end .content-->
+							<div class="pagination">
+								<a href="#img5" class="prev"><i class="fa fa-caret-left"></i>Previous</a>
+								<a href="#img2" class="next">Next<i class="fa fa-caret-right"></i></a>
+							</div><!--end .pagination-->
+							<div class="clear"></div>
+						</div><!--end .box-->
+					</div><!--end .lightbox-->
+					<div class="lightbox" id="img2">
+						<div class="box inner">
+							<a href="#cases" class="close">&times;</a>
+							<div class="content">
+								<img src="Images/img2.png" class="content-image" alt="Email letter project thumbnail">
+								<section class="project-description">
+									<h4>HTML Email Letter</h4>
+									<p class="redused-font-size">This HTML email letter is shown correctly in the following email reading softwares/sites: Gmail,  Mozilla Thunderbird (latest version), Microsoft Outlook (latest version).</p>
+									<p class="redused-font-size">You can view the result of my work in a browser by clicking this <a class="alt-link" href="email-table-inlined.html">link</a>.</p>
+								</section><!--end .project-description-->
+							</div><!--end .content-->
+							<div class="pagination">
+								<a href="#img1" class="prev"><i class="fa fa-caret-left"></i>Previous</a>
+								<a href="#img3" class="next">Next<i class="fa fa-caret-right"></i></a>
+							</div><!--end .pagination-->
+							<div class="clear"></div>
+						</div><!--end .box-->
+					</div><!--end .lightbox-->
+					<div class="lightbox" id="img3">
+						<div class="box inner">
+							<a href="#cases" class="close">&times;</a>
+							<div class="content">
+								<img src="Images/img3.png" class="content-image" alt="Email letter project thumbnail">
+								<section class="project-description">
+									<h4>Wine Shop Products Block</h4>
+									<p class="redused-font-size">Building this block from <a class="alt-link" href="http://www.grapevine.se/vara-drycker">www.grapevine.se</a> required the use of BEM naming convention to support the modularity of item subblocks.</p>
+									
+								</section><!--end .project-description-->
+							</div><!--end .content-->
+							<div class="pagination">
+								<a href="#img2" class="prev"><i class="fa fa-caret-left"></i>Previous</a>
+								<a href="#img4" class="next">Next<i class="fa fa-caret-right"></i></a>
+								</div><!--end .pagination-->
+							<div class="clear"></div>
+						</div><!--end .box-->
+					</div><!--end .lightbox-->
+					<div class="lightbox" id="img4">
+						<div class="box inner">
+							<a href="#cases" class="close">&times;</a>
+							<div class="content">
+								<img src="Images/img4.png" class="content-image" alt="Magio Pro Beauty School project thumbnail">
+								<section class="project-description">
+									<h4>Magio Pro Beauty School Part 1</h4>
+									<p class="redused-font-size">My goal on this development stage was to create a raw mockup design of the site pages from the browser screen shots. For this purpose, I've used PhotoShop and end up with a better understanding of web components and measurements applied to the original site.</p>
+									<p class="redused-font-size">* Remark: this project was meant to be as my HTML/CSS/JS interpretation of <a href="http://www.templatemonster.com/demo/45733.html" class="alt-link">this website template</a>.</p>
+								</section><!--end .project-description-->
+							</div><!--end .content-->
+							<div class="pagination">
+								<a href="#img3" class="prev"><i class="fa fa-caret-left"></i>Previous</a>
+								<a href="#img5" class="next">Next<i class="fa fa-caret-right"></i></a>
+							</div><!--end .pagination-->
+							<div class="clear"></div>
+						</div><!--end .box-->
+					</div><!--end .lightbox-->
+					<div class="lightbox" id="img5">
+						<div class="box inner">
+							<a href="#cases" class="close">&times;</a>
+							<div class="content">
+								<img src="Images/img5.png" class="content-image" alt="Magio Pro Beauty School project thumbnail">
+								<section class="project-description">
+									<h4>Magio Pro Beauty School Part 2</h4>
+									<p class="redused-font-size">On the coding stage, JavaScript came in very handy for living the dropdown main menu and scroll to top button. I've found on the internet and integrated another's code for the scroll button, and customized superfish menu with CSS.</p>
+									<p class="redused-font-size">* Remark: this project was meant to be as my HTML/CSS/JS interpretation of <a href="http://www.templatemonster.com/demo/45733.html" class="alt-link">this website template</a>.</p>
+								</section><!--end .project-description-->
+							</div><!--end .content-->
+							<div class="pagination">
+								<a href="#img4" class="prev"><i class="fa fa-caret-left"></i>Previous</a>
+								<a href="#img1" class="next">Next<i class="fa fa-caret-right"></i></a>
+							</div><!--end .pagination-->
+							<div class="clear"></div>
+						</div><!--end .box-->
+					</div><!--end .lightbox-->
+					<div class="clear"></div>
+				</section><!--end .projects centered inner-->
+		</div><!--end div#cases-->
+		
+		<!-- About Page -->
+		<div id="about" class="page-bg clear">
+		 	<section class="page-content centered inner">
+		 		<h3 class="">About</h3>
+		 		<section class="main-block">
+		 		
+					<p class="top-space">I’m a self-taught graphic/web designer very excited about the new features of HTML5, such as the new semantic tags, and the power of using elegant CSS decisions instead of heavy loaded JS on a page.</p>
+				
+					<p>I study JS and PHP in the background.</p>
+					
+					<p>I understand the significance of well-organized HTML and CSS performance for producing efficient output. The mandatory using preprocessors and naming conventions in my workflow reduces the specificity level and makes the final code understandable and reusable not only for myself. And I’ve never used <em>!important</em> yet.  
+					</p>
+					</section><!--end .main-block-->
+				<aside class="sidebar">
+					<h5>Skills/Tools/Software</h5>
+					<h5>Strong knowledge:</h5>
+					<ul class="page-content__list">
+						<li>HTML5, CSS (LESS and Sass; OOCSS, SMACSS, BEM, ITCSS)</li>
+						<li>MS Office, Photoshop, Illustrator, Sketch</li>
+						<li>SublimeText 3</li>
+						<li>Browser compatibility</li>
+					</ul>
+					<h5>Basic knowledge:</h5>
+					<ul class="page-content__list">
+						<li>WordPress</li>
+						<li>JavaScript</li>
+						<li>PHP</li>
+						<li>Git, Github</li>
+						<li>SEO Analytics tools</li>
+					</ul>
+				</aside>
+				<div class="clear"></div>
+			</section><!--end .page-content centered inner-->
+		</div><!--end .page-bg-->
+		
+		<!-- Contact me Page -->
+		<div id="contact" class="clear">
+			<section class="centered inner">
+				<h3 class="color-secondary">Contact me</h3>
+				<ul class="social-list">
+					<a href="https://www.facebook.com/anastasiia.gapon">
+						<i class="fa fa-facebook-official"></i>
+						<li class="social-list__item">facebook</li>
+					</a>
+					<a href="https://twitter.com/AnastasiiaG">
+						<i class="fa fa-twitter-square"></i>
+						<li class="social-list__item">twitter</li>
+					</a>
+					<a href="https://github.com/AnastasiiaGapon">
+						<i class="fa fa-github-square"></i>
+						<li class="social-list__item">github</li>
+					</a>
+					<a href="mailto:nastya.gapon@yahoo.com">
+						<i class="fa fa-paper-plane"></i>
+						<li class="social-list__item no-right-margin">nastya.gapon@yahoo.com</li>
+					</a>
+				</ul>
+			</section><!--end .centered inner-->
+		</div><!--end .contact-->
+	</section>
+	<!-- Footer -->
+	<footer class="footer centered">			
+		<section class="copyrights top-space">
+			<p class="footer__copyrights">Theme by Anastasiia Gapon 2016</p>
+			<p class="footer__copyrights right-float">Published with <a href="https://pages.github.com/">GithubPages</a></p>
+		</section>
+		
+	</footer>
+	<script src="JS/jquery.js"></script>
+	<script src="JS/pop-up-menu.js"></script>
+</body>
 </html>
