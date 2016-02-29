@@ -311,7 +311,10 @@ ul {
 
 .content-image {
   float: left;
-  margin-right: 2rem; }
+  width: 650px;
+  height: 640px;
+  margin-right: 2rem;
+}
 
 .project-description {
   width: 30%;
